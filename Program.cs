@@ -8,9 +8,7 @@ using System.Threading.Tasks;
 
 using System.Security.Cryptography.X509Certificates;
 
-// dependencies:
-// <PackageReference Include="MongoDB.Driver" Version="2.9.2" />
-// <TargetFramework>netcoreapp2.2</TargetFramework>
+// Tested using MongoDB.Driver 2.9.2 and netcoreapp 2.2
 
 namespace WorkingWithMongoDB
 {
@@ -32,7 +30,8 @@ namespace WorkingWithMongoDB
             // and provide a password, which should match the second argument you pass to X509Certificate2
             var cert = new X509Certificate2("x509-temp.pfx", "password");
 
-            settings.SslSettings = new SslSettings {
+            settings.SslSettings = new SslSettings
+            {
                 ClientCertificates = new List<X509Certificate>()
                 {
                     cert
