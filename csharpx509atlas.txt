@@ -1,0 +1,34 @@
+Code:
+var connectionString = "mongodb+srv://balboaclusterm10-5sfvt.mongodb.net/test?authMechanism=MONGODB-X509";
+var settings = MongoClientSettings.FromConnectionString(connectionString);
+var cert = new X509Certificate2("x509-temp.pfx", "password");
+Console.WriteLine(cert.ToString());
+Console.WriteLine(cert.PrivateKey!=null ? "contains private key" : "does not contain private key"); // verify that there's a private key in the cert, docs tell us we need this
+var sslSettings = new SslSettings {
+    ClientCertificates = new List<X509Certificate>()
+    {
+        cert
+    }
+};
+settings.SslSettings = sslSettings;
+
+//"mongodb+srv://admin:admin@mflix-2sp0m.mongodb.net/test?retryWrites=true&w=majority");
+var client = new MongoClient(settings);//settingObjectOnlySettings);
+
+Run:
+
+Unhandled Exception: System.AggregateException: One or more errors occurred. (A timeout occured after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 } }. Client view of cluster state is { ClusterId : "1", ConnectionMode : "ReplicaSet", Type : "ReplicaSet", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/balboaclusterm10-shard-00-00-5sfvt.mongodb.net:27017" }", EndPoint: "Unspecified/balboaclusterm10-shard-00-00-5sfvt.mongodb.net:27017", State: "Disconnected", Type: "Unknown", LastUpdateTimestamp: "2019-11-22T15:17:56.0526349Z" }, { ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/balboaclusterm10-shard-00-01-5sfvt.mongodb.net:27017" }", EndPoint: "Unspecified/balboaclusterm10-shard-00-01-5sfvt.mongodb.net:27017", State: "Disconnected", Type: "Unknown", LastUpdateTimestamp: "2019-11-22T15:17:56.0575466Z" }, { ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/balboaclusterm10-shard-00-02-5sfvt.mongodb.net:27017" }", EndPoint: "Unspecified/balboaclusterm10-shard-00-02-5sfvt.mongodb.net:27017", State: "Disconnected", Type: "Unknown", LastUpdateTimestamp: "2019-11-22T15:17:56.0580282Z" }] }.) ---> System.TimeoutException: A timeout occured after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 } }. Client view of cluster state is { ClusterId : "1", ConnectionMode : "ReplicaSet", Type : "ReplicaSet", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/balboaclusterm10-shard-00-00-5sfvt.mongodb.net:27017" }", EndPoint: "Unspecified/balboaclusterm10-shard-00-00-5sfvt.mongodb.net:27017", State: "Disconnected", Type: "Unknown", LastUpdateTimestamp: "2019-11-22T15:17:56.0526349Z" }, { ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/balboaclusterm10-shard-00-01-5sfvt.mongodb.net:27017" }", EndPoint: "Unspecified/balboaclusterm10-shard-00-01-5sfvt.mongodb.net:27017", State: "Disconnected", Type: "Unknown", LastUpdateTimestamp: "2019-11-22T15:17:56.0575466Z" }, { ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/balboaclusterm10-shard-00-02-5sfvt.mongodb.net:27017" }", EndPoint: "Unspecified/balboaclusterm10-shard-00-02-5sfvt.mongodb.net:27017", State: "Disconnected", Type: "Unknown", LastUpdateTimestamp: "2019-11-22T15:17:56.0580282Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.ThrowTimeoutException(IServerSelector selector, ClusterDescription description)
+   at MongoDB.Driver.Core.Clusters.Cluster.WaitForDescriptionChangedHelper.HandleCompletedTask(Task completedTask)
+   at MongoDB.Driver.Core.Clusters.Cluster.WaitForDescriptionChangedAsync(IServerSelector selector, ClusterDescription description, Task descriptionChangedTask, TimeSpan timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(IServerSelector selector, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoClient.AreSessionsSupportedAfterSeverSelctionAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoClient.AreSessionsSupportedAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoClient.StartImplicitSessionAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at WorkingWithMongoDB.Program.MainAsync() in /home/pegasus/Documents/x509-driver-snippets/csharp/Program.cs:line 64
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at WorkingWithMongoDB.Program.Main(String[] args) in /home/pegasus/Documents/x509-driver-snippets/csharp/Program.cs:line 23
