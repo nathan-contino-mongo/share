@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 using System.Security.Cryptography.X509Certificates;
 
+// dependencies:
+// <PackageReference Include="MongoDB.Driver" Version="2.9.2" />
+// <TargetFramework>netcoreapp2.2</TargetFramework>
+
 namespace WorkingWithMongoDB
 {
     class Program
