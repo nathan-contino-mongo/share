@@ -19,9 +19,13 @@ namespace WorkingWithMongoDB
 
         static async Task MainAsync()
         {
-            var connectionString = "mongodb+srv://admin:admin@balboaclusterm10-5sfvt.mongodb.net/test?retryWrites=true&w=majority";
+            // note that you can specify the username and password here or use these as placeholders and override with the CreateCredential below
+            var connectionString = "mongodb+srv://username:password@balboaclusterm10-5sfvt.mongodb.net/test?retryWrites=true&w=majority";
+            var settings = MongoClientSettings.FromConnectionString(connectionString);
 
-            var client = new MongoClient(connectionString);
+            settings.Credential =  MongoCredential.CreateCredential("admin", "admin", "admin");
+
+            var client = new MongoClient(settings);
             
             // just doing a quick read to verify the usability of this connection
             var database = client.GetDatabase("testDB");
