@@ -8,15 +8,6 @@ import com.mongodb.connection.SslSettings
 // mongo-scala-driver 2.7.0
 
 object MongoDBSCRAM extends App {
-   // 1) You will need to convert your Atlas-provided PEM containing the cert/private keys into a PFX
-   //    use openssl and the following line to create a PFX from your PEM:
-   // openssl pkcs12 -export -in <x509>.pem -inkey <x509>.pem -out <x509>.pfx -certfile <x509>.pem
-   //    and provide a password, which should match the second argument you pass to X509Certificate2
-   // 2) Then you'll have to convert your pfx into a keystore:
-   // keytool -importkeystore -destkeystore <x509>.keystore -srckeystore <x509>.pfx -srcstoretype pkcs12 -alias 1
-   System.setProperty("javax.net.ssl.keyStore", "moe.keystore");
-   System.setProperty("javax.net.ssl.keyStorePassword", "password");
-
    val password = "admin".toCharArray()
    val credential = MongoCredential.createScramSha1Credential("admin", "admin", password);
    val connectionString = new ConnectionString("mongodb+srv://balboaclusterm10-5sfvt.mongodb.net/test");
