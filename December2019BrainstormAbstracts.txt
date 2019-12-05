@@ -1,0 +1,85 @@
+IDEA:
+
+Update/add new features to aggregation framework course
+
+ABSTRACT:
+
+The aggregation framework has developed a lot since our aggregation
+framework MongoDB University course (M121) debuted in October 2017.
+While the course has been *maintained* for correctness, new feature
+additions have not *enhanced* the course beyond its original scope.
+Arguments can be made about whether or not some of these features belong
+in the basic aggregation framework course or if we ought to create an
+entirely new "advanced aggregation framework" (M122) course... but we
+can likely agree on one thing: the aggregation framework is complex
+enough that most users would benefit from university content rather than
+mere reference material.
+
+To sum up:
+1) aggregation framework hard
+2) aggregation framework class old
+3) aggregation framework class lacking new thingies
+4) add new thingies to old class, make longer. Learn gooder.
+
+
+========================================================================
+
+
+IDEA: 
+
+Automated testing for all examples/snippets (so if something changes
+with a driver, we know, and so that we don't provide non-working
+examples -- some snippets could be spliced into a common "skeleton"
+setup code chunk, for example)
+
+"ABSTRACT":
+
+MongoDB currently maintains 10 language drivers: Javascript, Java,
+Python, Go, C#, Ruby, Perl, Scala, PHP, C, and C++. The documentation
+for these drivers is currently inconsistent, often out-of-date, and
+is maintained solely by the driver developers. As you might suspect, it
+is not their top priority. As the developer education team takes
+ownership of the driver documentation, we extend our expectations of
+comprehensiveness, correctness, and the ability to meet user needs.
+While taking the driver documentation out of the hands of the driver
+developers and into the hands of documentation experts certainly has its
+advantages, it has one chief disadvantage: the ability to keep examples
+and content up to date. To help this effort, I suggest adding our coding
+examples to one of two options:
+
+1) the testing suite used by developers to test the correctness of their
+   drivers
+
+2) a nightly testing suite used by us to check our documentation for
+   correctness
+
+I would advise against the first option for two reasons: first, when
+developers make changes to APIs and deprecate options, they need to be
+able to edit and fix their own tests. Since *we* will own this test
+suite, not the developers (since we actually need to use these on the
+site), WE would have to fix the examples -- not the developers. I do not
+think the developers would be happy if they had to ask us to fix some of
+their own tests before they could merge a feature in, and worst case
+they'd just learn to ignore our tests.
+
+Since checking for the correctness of these tests would result in direct
+action by us (fixing the examples, or alerting the developers), I would
+suggest adopting a nightly CRON-style testing suite that simply
+creates a docker environment, spins up an instance of mongodb, and
+runs the code examples. For simple cases this would be relatively easy;
+for hard cases, it could take a great deal more effort. But we would
+know for certain that our documentation is *correct*, and we're going to
+have to validate all of the examples in the existing driver
+documentation anyway when we migrate everything over. If we could prove
+that this concept could work for a single language -- perhaps Node.js,
+since it's our first language migration -- it would be *very* easy to
+extend the POC to later languages.
+
+To sum up:
+1) driver docs ain't always right
+2) we need to make em right
+3) we need to keep em right
+4) automated testing would take as much effort as manual testing
+   in an initial migration... and would validate our examples
+   CONTINUOUSLY forever, so when drivers change we could catch it
+   even if they don't tell us (or don't know themselves)
