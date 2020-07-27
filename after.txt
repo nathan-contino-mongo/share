@@ -1,0 +1,306 @@
+2020-07-27 11:20:06.928 8807-8844/com.mongodb.realmsnippets D/libEGL: Emulator has host GPU support, qemu.gles is set to 1.
+2020-07-27 11:20:06.923 8807-8807/com.mongodb.realmsnippets W/RenderThread: type=1400 audit(0.0:175): avc: denied { write } for name="property_service" dev="tmpfs" ino=7915 scontext=u:r:untrusted_app:s0:c166,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0 app=com.mongodb.realmsnippets
+2020-07-27 11:20:06.938 8807-8844/com.mongodb.realmsnippets W/libc: Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+2020-07-27 11:20:06.970 8807-8844/com.mongodb.realmsnippets D/libEGL: loaded /vendor/lib64/egl/libEGL_emulation.so
+2020-07-27 11:20:06.973 8807-8844/com.mongodb.realmsnippets D/libEGL: loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2020-07-27 11:20:06.983 8807-8844/com.mongodb.realmsnippets D/libEGL: loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2020-07-27 11:20:07.206 8807-8845/com.mongodb.realmsnippets D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2020-07-27 11:20:07.238 8807-8845/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:20:07.248 8807-8845/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:20:07.248 8807-8845/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:20:07.351 8807-8807/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2020-07-27 11:20:07.352 8807-8807/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2020-07-27 11:20:07.432 8807-8842/com.mongodb.realmsnippets D/HostConnection: HostConnection::get() New Host Connection established 0x7bf6a7a4a400, tid 8842
+2020-07-27 11:20:07.454 8807-8842/com.mongodb.realmsnippets D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_2 
+2020-07-27 11:20:07.477 8807-8842/com.mongodb.realmsnippets W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2020-07-27 11:20:07.480 8807-8845/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Lcom/android/org/conscrypt/ConscryptFileDescriptorSocket;->setUseSessionTickets(Z)V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:20:07.480 8807-8845/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Lcom/android/org/conscrypt/ConscryptFileDescriptorSocket;->setHostname(Ljava/lang/String;)V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:20:07.481 8807-8845/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setAlpnProtocols([B)V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:20:07.489 8807-8842/com.mongodb.realmsnippets D/EGL_emulation: eglCreateContext: 0x7bf6a7a4a680: maj 2 min 0 rcv 2
+2020-07-27 11:20:07.530 8807-8842/com.mongodb.realmsnippets D/EGL_emulation: eglMakeCurrent: 0x7bf6a7a4a680: ver 2 0 (tinfo 0x7bf6a7af3020)
+2020-07-27 11:20:07.554 8807-8842/com.mongodb.realmsnippets W/Gralloc3: mapper 3.x is not supported
+2020-07-27 11:20:07.558 8807-8842/com.mongodb.realmsnippets D/HostConnection: createUnique: call
+2020-07-27 11:20:07.559 8807-8842/com.mongodb.realmsnippets D/HostConnection: HostConnection::get() New Host Connection established 0x7bf6a7a4a7c0, tid 8842
+2020-07-27 11:20:07.560 8807-8842/com.mongodb.realmsnippets D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_2 
+2020-07-27 11:20:07.560 8807-8842/com.mongodb.realmsnippets D/eglCodecCommon: allocate: Ask for block of size 0x1000
+2020-07-27 11:20:07.561 8807-8842/com.mongodb.realmsnippets D/eglCodecCommon: allocate: ioctl allocate returned offset 0x3ff6c9000 size 0x2000
+2020-07-27 11:20:07.578 8807-8842/com.mongodb.realmsnippets D/EGL_emulation: eglMakeCurrent: 0x7bf6a7a4a680: ver 2 0 (tinfo 0x7bf6a7af3020)
+2020-07-27 11:20:07.822 8807-8845/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->getAlpnSelectedProtocol()[B (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:20:08.527 8807-8807/com.mongodb.realmsnippets V/QUICKSTART: Successfully authenticated anonymously.
+2020-07-27 11:20:08.618 8807-8807/com.mongodb.realmsnippets E/EXADS: size: 1
+2020-07-27 11:20:08.622 8807-8807/com.mongodb.realmsnippets E/TEST: docNew Task
+2020-07-27 11:20:08.631 8807-8807/com.mongodb.realmsnippets V/QUICKSTART: Updated range: 0 to 1
+2020-07-27 11:20:08.673 8807-8858/com.mongodb.realmsnippets E/REALM_JNI: jni: ThrowingException 5, [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - invalid literal; last read: '�' in /Users/cm/Realm/realm-java/realm/realm-library/src/main/cpp/io_realm_internal_OsRealmConfig.cpp line 381, .
+2020-07-27 11:20:08.673 8807-8858/com.mongodb.realmsnippets E/REALM_JNI: Exception has been thrown: Unrecoverable error. [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - invalid literal; last read: '�' in /Users/cm/Realm/realm-java/realm/realm-library/src/main/cpp/io_realm_internal_OsRealmConfig.cpp line 381
+2020-07-27 11:20:08.673 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: java_vm_ext.cc:570] JNI DETECTED ERROR IN APPLICATION: input is not valid Modified UTF-8: illegal start byte 0x9a
+2020-07-27 11:20:08.673 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: java_vm_ext.cc:570]     string: 'Unrecoverable error. [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - invalid literal; last read: '�' in /Users/cm/Realm/realm-java/realm/realm-library/src/main/cpp/io_realm_internal_OsRealmConfig.cpp line 381'
+2020-07-27 11:20:08.673 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: java_vm_ext.cc:570]     input: '0x55 0x6e 0x72 0x65 0x63 0x6f 0x76 0x65 0x72 0x61 0x62 0x6c 0x65 0x20 0x65 0x72 0x72 0x6f 0x72 0x2e 0x20 0x5b 0x6a 0x73 0x6f 0x6e 0x2e 0x65 0x78 0x63 0x65 0x70 0x74 0x69 0x6f 0x6e 0x2e 0x70 0x61 0x72 0x73 0x65 0x5f 0x65 0x72 0x72 0x6f 0x72 0x2e 0x31 0x30 0x31 0x5d 0x20 0x70 0x61 0x72 0x73 0x65 0x20 0x65 0x72 0x72 0x6f 0x72 0x20 0x61 0x74 0x20 0x6c 0x69 0x6e 0x65 0x20 0x31 0x2c 0x20 0x63 0x6f 0x6c 0x75 0x6d 0x6e 0x20 0x31 0x3a 0x20 0x73 0x79 0x6e 0x74 0x61 0x78 0x20 0x65 0x72 0x72 0x6f 0x72 0x20 0x77 0x68 0x69 0x6c 0x65 0x20 0x70 0x61 0x72 0x73 0x69 0x6e 0x67 0x20 0x76 0x61 0x6c 0x75 0x65 0x20 0x2d 0x20 0x69 0x6e 0x76 0x61 0x6c 0x69 0x64 0x20 0x6c 0x69 0x74 0x65 0x72 0x61 0x6c 0x3b 0x20 0x6c 0x61 0x73 0x74 0x20 0x72 0x65 0x61 0x64 0x3a 0x20 0x27 <0x9a> 0x27 0x20 0x69 0x6e 0x20 0x2f 0x55 0x73 0x65 0x72 0x73 0x2f 0x63 0x6d 0x2f 0x52 0x65 0x61 0x6c 0x6d 0x2f 0x72 0x65 0x61 0x6c 0x6d 0x2d 0x6a 0x61 0x76 0x61 0x2f 0x72 0x65 0x61 0x6c 0x6d 0x2f 0x72 0x65 0x61 0x6c 0x6d 0x2d 0x6c 0x69
+2020-07-27 11:20:08.673 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: java_vm_ext.cc:570]     in call to ThrowNew
+2020-07-27 11:20:08.673 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: java_vm_ext.cc:570]     from java.lang.String io.realm.internal.OsRealmConfig.nativeCreateAndSetSyncConfig(long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, byte, java.lang.String, java.lang.String, java.lang.String[], byte, java.lang.String, java.lang.Object)
+2020-07-27 11:20:08.886 8807-8807/com.mongodb.realmsnippets V/QUICKSTART: Successfully logged out.
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] Runtime aborting...
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] Dumping all threads without mutator lock held
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] All threads:
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] DALVIK THREADS (28):
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "pool-1-thread-1" prio=4 tid=27 Runnable
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=0 dsCount=0 flags=0 obj=0x12cfb320 self=0x7bf65c78bc00
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8858 nice=10 cgrp=default sched=0/0 handle=0x7bf6576f9d50
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=R schedstat=( 44266823 569711 10 ) utm=2 stm=2 core=3 HZ=100
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf6575f7000-0x7bf6575f9000 stackSize=1039KB
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes= "abort lock" "mutator lock"(shared held)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 000000000048df0e  /apex/com.android.runtime/lib64/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, int, BacktraceMap*, char const*, art::ArtMethod*, void*, bool)+126)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 00000000005a77b3  /apex/com.android.runtime/lib64/libart.so (art::Thread::DumpStack(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, bool, BacktraceMap*, bool) const+675)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 00000000005c49bb  /apex/com.android.runtime/lib64/libart.so (art::DumpCheckpoint::Run(art::Thread*)+859)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 00000000005bcf18  /apex/com.android.runtime/lib64/libart.so (art::ThreadList::RunCheckpoint(art::Closure*, art::Closure*)+456)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #04 pc 00000000005bc2d1  /apex/com.android.runtime/lib64/libart.so (art::ThreadList::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, bool)+1601)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #05 pc 0000000000552eb9  /apex/com.android.runtime/lib64/libart.so (art::Runtime::Abort(char const*)+1529)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #06 pc 000000000000c873  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+611)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #07 pc 00000000003ede64  /apex/com.android.runtime/lib64/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+1604)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #08 pc 00000000003ee045  /apex/com.android.runtime/lib64/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, __va_list_tag*)+85)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #09 pc 00000000003dfb34  /apex/com.android.runtime/lib64/libart.so (art::(anonymous namespace)::ScopedCheck::AbortF(char const*, ...)+180)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #10 pc 00000000003df9f5  /apex/com.android.runtime/lib64/libart.so (art::(anonymous namespace)::ScopedCheck::CheckNonHeapValue(char, art::(anonymous namespace)::JniValueType)+1189)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #11 pc 00000000003de0ae  /apex/com.android.runtime/lib64/libart.so (art::(anonymous namespace)::ScopedCheck::CheckPossibleHeapValue(art::ScopedObjectAccess&, char, art::(anonymous namespace)::JniValueType)+174)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #12 pc 00000000003dd712  /apex/com.android.runtime/lib64/libart.so (art::(anonymous namespace)::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::(anonymous namespace)::JniValueType*)+690)
+2020-07-27 11:20:08.919 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #13 pc 00000000003c87dd  /apex/com.android.runtime/lib64/libart.so (art::(anonymous namespace)::CheckJNI::ThrowNew(_JNIEnv*, _jclass*, char const*)+861)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #14 pc 00000000001cc6a6  /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/lib/x86_64/librealm-jni.so (???)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #15 pc 00000000001cc001  /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/lib/x86_64/librealm-jni.so (???)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #16 pc 000000000016b9ee  /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/lib/x86_64/librealm-jni.so (Java_io_realm_internal_OsRealmConfig_nativeCreateAndSetSyncConfig+2424)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #17 pc 0000000000174641  /apex/com.android.runtime/lib64/libart.so (art_quick_generic_jni_trampoline+209)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #18 pc 00000000001696b6  /apex/com.android.runtime/lib64/libart.so (art_quick_invoke_static_stub+806)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #19 pc 0000000000179c61  /apex/com.android.runtime/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+305)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #20 pc 0000000000340ffc  /apex/com.android.runtime/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+380)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #21 pc 000000000033c5aa  /apex/com.android.runtime/lib64/libart.so (bool art::interpreter::DoCall<true, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+826)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #22 pc 000000000066fddb  /apex/com.android.runtime/lib64/libart.so (MterpInvokeStaticRange+491)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #23 pc 0000000000162c99  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_static_range+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #24 pc 00000000001a37de  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.internal.OsRealmConfig.<init>+774)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #25 pc 000000000066f7c2  /apex/com.android.runtime/lib64/libart.so (MterpInvokeDirectRange+1090)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #26 pc 0000000000162c19  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_direct_range+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #27 pc 00000000001a3a04  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.internal.OsRealmConfig.<init>)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #28 pc 000000000066f7c2  /apex/com.android.runtime/lib64/libart.so (MterpInvokeDirectRange+1090)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #29 pc 0000000000162c19  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_direct_range+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #30 pc 00000000001a3098  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.internal.OsRealmConfig$Builder.build+32)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #31 pc 00000000006692dd  /apex/com.android.runtime/lib64/libart.so (MterpInvokeVirtual+1789)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #32 pc 0000000000162819  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_virtual+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #33 pc 00000000001a5318  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.internal.OsSharedRealm.getInstance)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #34 pc 000000000066c86d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeStatic+1485)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #35 pc 0000000000162999  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_static+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #36 pc 000000000018b418  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.BaseRealm.<init>+188)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #37 pc 000000000066be41  /apex/com.android.runtime/lib64/libart.so (MterpInvokeDirect+1537)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #38 pc 0000000000162919  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_direct+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #39 pc 000000000018b340  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.BaseRealm.<init>+8)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #40 pc 000000000066be41  /apex/com.android.runtime/lib64/libart.so (MterpInvokeDirect+1537)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #41 pc 0000000000162919  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_direct+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #42 pc 000000000019ecc0  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.Realm.<init>+24)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #43 pc 000000000066be41  /apex/com.android.runtime/lib64/libart.so (MterpInvokeDirect+1537)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #44 pc 0000000000162919  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_direct+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #45 pc 000000000019ddb8  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.Realm.createInstance+4)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #46 pc 000000000066c86d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeStatic+1485)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #47 pc 0000000000162999  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_static+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #48 pc 00000000001946f4  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.RealmCache.createInstance+8)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #49 pc 000000000066be41  /apex/com.android.runtime/lib64/libart.so (MterpInvokeDirect+1537)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #50 pc 0000000000162919  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_direct+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #51 pc 000000000019422c  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.RealmCache.doCreateRealmOrGetFromCache+136)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #52 pc 000000000066be41  /apex/com.android.runtime/lib64/libart.so (MterpInvokeDirect+1537)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #53 pc 0000000000162919  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_direct+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #54 pc 000000000019415e  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.RealmCache.createRealmOrGetFromCache+22)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #55 pc 000000000066c86d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeStatic+1485)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #56 pc 0000000000162999  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_static+25)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #57 pc 000000000019de80  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.Realm.getInstance+8)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #58 pc 000000000066c86d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeStatic+1485)
+2020-07-27 11:20:08.920 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #59 pc 0000000000162999  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_static+25)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #60 pc 00000000001935ba  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.Realm$1.run+30)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #61 pc 000000000066b06d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeInterface+2253)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #62 pc 0000000000162a19  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_interface+25)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #63 pc 00000000001ab2b6  [anon:dalvik-classes.dex extracted in memory from /data/app/com.mongodb.realmsnippets-bWUe5j0ORYGvnXqXcsAYTA==/base.apk] (io.realm.internal.async.BgPriorityRunnable.run+14)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #64 pc 000000000066b06d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeInterface+2253)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #65 pc 0000000000162a19  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_interface+25)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #66 pc 00000000001e6f28  /apex/com.android.runtime/javalib/core-oj.jar (java.util.concurrent.Executors$RunnableAdapter.call+4)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #67 pc 000000000066b06d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeInterface+2253)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #68 pc 0000000000162a19  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_interface+25)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #69 pc 00000000001ecf6a  /apex/com.android.runtime/javalib/core-oj.jar (java.util.concurrent.FutureTask.run+62)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #70 pc 000000000066b06d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeInterface+2253)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #71 pc 0000000000162a19  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_interface+25)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #72 pc 00000000001f7fb2  /apex/com.android.runtime/javalib/core-oj.jar (java.util.concurrent.ThreadPoolExecutor.runWorker+158)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #73 pc 00000000006692dd  /apex/com.android.runtime/lib64/libart.so (MterpInvokeVirtual+1789)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #74 pc 0000000000162819  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_virtual+25)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #75 pc 00000000001f6d60  /apex/com.android.runtime/javalib/core-oj.jar (java.util.concurrent.ThreadPoolExecutor$Worker.run+4)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #76 pc 000000000066b06d  /apex/com.android.runtime/lib64/libart.so (MterpInvokeInterface+2253)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #77 pc 0000000000162a19  /apex/com.android.runtime/lib64/libart.so (mterp_op_invoke_interface+25)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #78 pc 00000000000ea918  /apex/com.android.runtime/javalib/core-oj.jar (java.lang.Thread.run+8)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #79 pc 000000000030dcad  /apex/com.android.runtime/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEbb.llvm.13960599661070883162+253)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #80 pc 000000000065854a  /apex/com.android.runtime/lib64/libart.so (artQuickToInterpreterBridge+1210)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #81 pc 00000000001747cc  /apex/com.android.runtime/lib64/libart.so (art_quick_to_interpreter_bridge+140)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #82 pc 0000000000169354  /apex/com.android.runtime/lib64/libart.so (art_quick_invoke_stub+756)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #83 pc 0000000000179c50  /apex/com.android.runtime/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+288)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #84 pc 0000000000549d29  /apex/com.android.runtime/lib64/libart.so (art::(anonymous namespace)::InvokeWithArgArray(art::ScopedObjectAccessAlreadyRunnable const&, art::ArtMethod*, art::(anonymous namespace)::ArgArray*, art::JValue*, char const*)+89)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #85 pc 000000000054afc5  /apex/com.android.runtime/lib64/libart.so (art::InvokeVirtualOrInterfaceWithJValues(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+437)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #86 pc 00000000005a0a7e  /apex/com.android.runtime/lib64/libart.so (art::Thread::CreateCallback(void*)+1438)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #87 pc 0000000000100fce  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+30)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #88 pc 0000000000098fe7  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.internal.OsRealmConfig.nativeCreateAndSetSyncConfig(Native method)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.internal.OsRealmConfig.<init>(OsRealmConfig.java:281)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.internal.OsRealmConfig.<init>(OsRealmConfig.java:35)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.internal.OsRealmConfig$Builder.build(OsRealmConfig.java:151)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.internal.OsSharedRealm.getInstance(OsSharedRealm.java:246)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.BaseRealm.<init>(BaseRealm.java:132)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.BaseRealm.<init>(BaseRealm.java:99)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.Realm.<init>(Realm.java:159)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.Realm.createInstance(Realm.java:495)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.RealmCache.createInstance(RealmCache.java:481)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.RealmCache.doCreateRealmOrGetFromCache(RealmCache.java:448)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   - locked <0x09b5211c> (a io.realm.RealmCache)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.RealmCache.createRealmOrGetFromCache(RealmCache.java:412)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.Realm.getInstance(Realm.java:424)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.Realm$1.run(Realm.java:1653)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at io.realm.internal.async.BgPriorityRunnable.run(BgPriorityRunnable.java:34)
+2020-07-27 11:20:08.921 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.lang.Thread.run(Thread.java:919)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "main" prio=4 tid=1 Native
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x73179ac8 self=0x7bf7373e6000
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8807 nice=-10 cgrp=default sched=0/0 handle=0x7bf73796fed8
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 1409002461 371177452 454 ) utm=93 stm=47 core=0 HZ=100
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7fffc98a2000-0x7fffc98a4000 stackSize=8192KB
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8807/stack)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000eb93a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 0000000000018710  /system/lib64/libutils.so (android::Looper::pollInner(int)+160)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 00000000000185aa  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+42)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 000000000014b7b3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at android.os.MessageQueue.nativePollOnce(Native method)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at android.os.MessageQueue.next(MessageQueue.java:336)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at android.os.Looper.loop(Looper.java:174)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at android.app.ActivityThread.main(ActivityThread.java:7356)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.lang.reflect.Method.invoke(Native method)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "Jit thread pool worker thread 0" prio=4 tid=2 Native
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x17400220 self=0x7bf6a7a00000
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8816 nice=0 cgrp=default sched=0/0 handle=0x7bf6a79ffd40
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 66512828 93688819 67 ) utm=4 stm=1 core=2 HZ=100
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf6a7901000-0x7bf6a7903000 stackSize=1023KB
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8816/stack)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000943f6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 000000000017fd7e  /apex/com.android.runtime/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 00000000005c6649  /apex/com.android.runtime/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+297)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 00000000005c5881  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Run()+113)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #04 pc 00000000005c5389  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+233)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #05 pc 0000000000100fce  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+30)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #06 pc 0000000000098fe7  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   (no managed stack frames)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "Runtime worker thread 0" prio=4 tid=3 Native (still starting up)
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x7bf7373e0c00
+2020-07-27 11:20:08.922 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8817 nice=0 cgrp=default sched=0/0 handle=0x7bf7372c8d40
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 303142 3159965 6 ) utm=0 stm=0 core=0 HZ=100
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf7372ba000-0x7bf7372bc000 stackSize=63KB
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8817/stack)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000943f6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 000000000017fd7e  /apex/com.android.runtime/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 00000000005c6649  /apex/com.android.runtime/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+297)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 00000000005c5850  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Run()+64)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #04 pc 00000000005c5389  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+233)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #05 pc 0000000000100fce  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+30)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #06 pc 0000000000098fe7  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   (no managed stack frames)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "Runtime worker thread 1" prio=4 tid=4 Native (still starting up)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x7bf6a7a11800
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8818 nice=0 cgrp=default sched=0/0 handle=0x7bf734cd0d40
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 1352172 3581775 8 ) utm=0 stm=0 core=0 HZ=100
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf734cc2000-0x7bf734cc4000 stackSize=63KB
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8818/stack)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000943f6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 000000000017fd7e  /apex/com.android.runtime/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2020-07-27 11:20:08.923 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 00000000005c6649  /apex/com.android.runtime/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+297)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 00000000005c5850  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Run()+64)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #04 pc 00000000005c5389  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+233)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #05 pc 0000000000100fce  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+30)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #06 pc 0000000000098fe7  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   (no managed stack frames)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "Runtime worker thread 3" prio=4 tid=5 Native (still starting up)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x7bf6a5e4b400
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8820 nice=0 cgrp=default sched=0/0 handle=0x7bf6aa57fd40
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 415685 410021 4 ) utm=0 stm=0 core=2 HZ=100
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf6aa571000-0x7bf6aa573000 stackSize=63KB
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8820/stack)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000943f6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 000000000017fd7e  /apex/com.android.runtime/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 00000000005c6649  /apex/com.android.runtime/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+297)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 00000000005c5850  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Run()+64)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #04 pc 00000000005c5389  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+233)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #05 pc 0000000000100fce  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+30)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #06 pc 0000000000098fe7  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   (no managed stack frames)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "Runtime worker thread 2" prio=4 tid=6 Native (still starting up)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x7bf6a7a3c000
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8819 nice=0 cgrp=default sched=0/0 handle=0x7bf6aa604d40
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 948451 2714338 5 ) utm=0 stm=0 core=1 HZ=100
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf6aa5f6000-0x7bf6aa5f8000 stackSize=63KB
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8819/stack)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000943f6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 000000000017fd7e  /apex/com.android.runtime/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 00000000005c6649  /apex/com.android.runtime/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+297)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 00000000005c5850  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Run()+64)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #04 pc 00000000005c5389  /apex/com.android.runtime/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+233)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #05 pc 0000000000100fce  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+30)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #06 pc 0000000000098fe7  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   (no managed stack frames)
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "Signal Catcher" prio=4 tid=7 WaitingInMainSignalCatcherLoop
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x17400298 self=0x7bf6a5ec8c00
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8821 nice=0 cgrp=default sched=0/0 handle=0x7bf6a78fad50
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 690785 1066103 5 ) utm=0 stm=0 core=1 HZ=100
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf6a7804000-0x7bf6a7806000 stackSize=991KB
+2020-07-27 11:20:08.924 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8821/stack)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000ebbba  /apex/com.android.runtime/lib64/bionic/libc.so (__rt_sigtimedwait+10)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 00000000000a3e2a  /apex/com.android.runtime/lib64/bionic/libc.so (sigwait+74)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 000000000057665a  /apex/com.android.runtime/lib64/libart.so (art::SignalCatcher::WaitForSignal(art::Thread*, art::SignalSet&)+250)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 00000000005752c2  /apex/com.android.runtime/lib64/libart.so (art::SignalCatcher::Run(void*)+258)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #04 pc 0000000000100fce  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+30)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #05 pc 0000000000098fe7  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   (no managed stack frames)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "ADB-JDWP Connection Control Thread" prio=4 tid=8 WaitingInMainDebuggerLoop
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x17400310 self=0x7bf6a7a5b800
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8822 nice=0 cgrp=default sched=0/0 handle=0x7bf6a77fdd50
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 11788456 32690191 48 ) utm=0 stm=1 core=3 HZ=100
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf6a7707000-0x7bf6a7709000 stackSize=991KB
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8822/stack)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000ebaba  /apex/com.android.runtime/lib64/bionic/libc.so (__ppoll+10)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 00000000000a1a05  /apex/com.android.runtime/lib64/bionic/libc.so (poll+69)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 0000000000008e66  /apex/com.android.runtime/lib64/libadbconnection.so (adbconnection::AdbConnectionState::RunPollLoop(art::Thread*)+1014)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 0000000000007054  /apex/com.android.runtime/lib64/libadbconnection.so (adbconnection::CallbackFunction(void*)+1060)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #04 pc 0000000000100fce  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+30)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #05 pc 0000000000098fe7  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   (no managed stack frames)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] 
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630] "ReferenceQueueDaemon" prio=4 tid=9 Waiting
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | group="" sCount=1 dsCount=0 flags=1 obj=0x17400388 self=0x7bf6a5e46000
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | sysTid=8824 nice=4 cgrp=default sched=0/0 handle=0x7bf65d6dcd50
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | state=S schedstat=( 854407 2769790 35 ) utm=0 stm=0 core=2 HZ=100
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | stack=0x7bf65d5da000-0x7bf65d5dc000 stackSize=1039KB
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   | held mutexes=
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   kernel: (couldn't read /proc/self/task/8824/stack)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #00 pc 00000000000943f6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #01 pc 000000000017fd7e  /apex/com.android.runtime/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #02 pc 00000000004891d2  /apex/com.android.runtime/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+626)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   native: #03 pc 000000000048acef  /apex/com.android.runtime/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+319)
+2020-07-27 11:20:08.925 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.lang.Object.wait(Native method)
+2020-07-27 11:20:08.926 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   - waiting on <0x09ddd125> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+2020-07-27 11:20:08.926 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.lang.Object.wait(Object.java:442)
+2020-07-27 11:20:08.926 8807-8858/com.mongodb.realmsnippets A/b.realmsnippet: runtime.cc:630]   at java.lang.Object.wait(Object.java:568)
+2020-07-27 11:20:08.933 8807-8858/com.mongodb.realmsnippets A/libc: Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 8858 (pool-1-thread-1), pid 8807 (b.realmsnippets)
