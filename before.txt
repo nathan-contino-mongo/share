@@ -1,0 +1,35 @@
+2020-07-27 11:15:35.342 8662-8710/com.mongodb.realmsnippets D/libEGL: Emulator has host GPU support, qemu.gles is set to 1.
+2020-07-27 11:15:35.343 8662-8710/com.mongodb.realmsnippets W/libc: Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+2020-07-27 11:15:35.391 8662-8710/com.mongodb.realmsnippets D/libEGL: loaded /vendor/lib64/egl/libEGL_emulation.so
+2020-07-27 11:15:35.398 8662-8710/com.mongodb.realmsnippets D/libEGL: loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2020-07-27 11:15:35.409 8662-8710/com.mongodb.realmsnippets D/libEGL: loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2020-07-27 11:15:35.333 8662-8662/com.mongodb.realmsnippets W/RenderThread: type=1400 audit(0.0:174): avc: denied { write } for name="property_service" dev="tmpfs" ino=7915 scontext=u:r:untrusted_app:s0:c166,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0 app=com.mongodb.realmsnippets
+2020-07-27 11:15:35.932 8662-8662/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2020-07-27 11:15:35.934 8662-8662/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2020-07-27 11:15:35.994 8662-8662/com.mongodb.realmsnippets V/QUICKSTART: Successfully authenticated anonymously.
+2020-07-27 11:15:36.111 8662-8662/com.mongodb.realmsnippets E/EXADS: size: 1
+2020-07-27 11:15:36.114 8662-8662/com.mongodb.realmsnippets E/TEST: docNew Task
+2020-07-27 11:15:36.122 8662-8662/com.mongodb.realmsnippets V/QUICKSTART: Updated range: 0 to 1
+2020-07-27 11:15:36.218 8662-8708/com.mongodb.realmsnippets D/HostConnection: HostConnection::get() New Host Connection established 0x7bf65c7cfa00, tid 8708
+2020-07-27 11:15:36.232 8662-8718/com.mongodb.realmsnippets D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2020-07-27 11:15:36.238 8662-8718/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:15:36.238 8662-8718/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:15:36.238 8662-8718/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:15:36.253 8662-8708/com.mongodb.realmsnippets D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_2 
+2020-07-27 11:15:36.265 8662-8708/com.mongodb.realmsnippets W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2020-07-27 11:15:36.268 8662-8708/com.mongodb.realmsnippets D/EGL_emulation: eglCreateContext: 0x7bf65c7cfbe0: maj 2 min 0 rcv 2
+2020-07-27 11:15:36.270 8662-8708/com.mongodb.realmsnippets D/EGL_emulation: eglMakeCurrent: 0x7bf65c7cfbe0: ver 2 0 (tinfo 0x7bf6a5e18320)
+2020-07-27 11:15:36.301 8662-8708/com.mongodb.realmsnippets W/Gralloc3: mapper 3.x is not supported
+2020-07-27 11:15:36.310 8662-8708/com.mongodb.realmsnippets D/HostConnection: createUnique: call
+2020-07-27 11:15:36.310 8662-8708/com.mongodb.realmsnippets D/HostConnection: HostConnection::get() New Host Connection established 0x7bf65c7cfd20, tid 8708
+2020-07-27 11:15:36.318 8662-8708/com.mongodb.realmsnippets D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_2 
+2020-07-27 11:15:36.319 8662-8708/com.mongodb.realmsnippets D/eglCodecCommon: allocate: Ask for block of size 0x1000
+2020-07-27 11:15:36.319 8662-8708/com.mongodb.realmsnippets D/eglCodecCommon: allocate: ioctl allocate returned offset 0x3ff6c9000 size 0x2000
+2020-07-27 11:15:36.337 8662-8708/com.mongodb.realmsnippets D/EGL_emulation: eglMakeCurrent: 0x7bf65c7cfbe0: ver 2 0 (tinfo 0x7bf6a5e18320)
+2020-07-27 11:15:36.374 8662-8718/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Lcom/android/org/conscrypt/ConscryptFileDescriptorSocket;->setUseSessionTickets(Z)V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:15:36.374 8662-8718/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Lcom/android/org/conscrypt/ConscryptFileDescriptorSocket;->setHostname(Ljava/lang/String;)V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:15:36.374 8662-8718/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setAlpnProtocols([B)V (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:15:36.423 8662-8662/com.mongodb.realmsnippets V/QUICKSTART: Deleted range: 0 to 1
+2020-07-27 11:15:36.643 8662-8718/com.mongodb.realmsnippets W/b.realmsnippet: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->getAlpnSelectedProtocol()[B (greylist,core-platform-api, reflection, allowed)
+2020-07-27 11:15:36.670 8662-8680/com.mongodb.realmsnippets I/b.realmsnippet: Background young concurrent copying GC freed 24063(6147KB) AllocSpace objects, 1(20KB) LOS objects, 75% free, 2037KB/8181KB, paused 345us total 144.737ms
+2020-07-27 11:15:36.854 8662-8662/com.mongodb.realmsnippets V/QUICKSTART: Successfully logged out.
