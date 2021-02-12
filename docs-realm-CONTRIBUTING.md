@@ -19,11 +19,10 @@ Here's a quick overview of how this system works:
    Twilio developer account to send text messages on their free tier (though the Guide would link
    to content for users who need that guidance).
 
-3) Send that brief description to Nathan Contino (@nate on Slack) in a slack DM. Example:
-   "Hi Nate, how is your day going? If you had to fight 50 horse-sized ducks or 500 duck-sized
-   horses, which would you choose? Anyway here's my pitch for a Realm Docs page: <pitch-text>"
+3) Post that brief description in the docs-realm Slack channel and tag the Realm docs team with
+   `@developer-education-team`
 
-4) You and Nate will discuss how to best fit this content into the documentation, including:
+4) You and the Realm docs team will discuss how to best fit this content into the documentation, including:
    
    - The usefulness of such a page to our users (what percentage of users would benefit from
      this page? Does it satisfy a common request from the community?)
@@ -43,14 +42,13 @@ Here's a quick overview of how this system works:
      to include, rough ideas of what descriptive text we'll need)
 
 5) Once we figure out the answers to those questions, it's time to write. Take the results
-   of the previous step's conversation and write your rough draft on a
-   Google Doc, github PR, or blood-stained scrap of parchment. As long as we can read it
-   and comment line-by-line, any platform should be fine -- docs will handle getting the
-   final draft into the RST we use for our documentation.
+   of the previous step's conversation and write your rough draft in a
+   Google Doc. The Realm docs team will handle getting the
+   final draft into the RST format we use for our documentation once it's approved.
 
-6) Send a link to your rough draft to @nate on Slack.
+6) Send a link to your rough draft to `@developer-education-team` on Slack.
 
-6) Review and editing! Nate will take a look at your rough draft and ~tear it to pieces~
+6) Review and editing! The team will take a look at your rough draft and
    ask questions, suggest minor changes, and generally brainstorm how to make your ideas
    look best on the docs platform. A lot of these will end up being things like "can we
    clarify this statement" and "we should use active voice here instead of passive voice"
@@ -59,7 +57,7 @@ Here's a quick overview of how this system works:
    changes could involve things like making code snippets more readable and moving around
    the ordering of sections to better match the look and feel of other Realm Docs pages.
 
-7) LGTM! When Nate says that your draft looks good, the docs team will take the content
+7) LGTM! When the team says that your draft looks good, they'll take the content
    you've created and port it over to RST for docs content in a PR on
    [docs-realm](https://github.com/mongodb/docs-realm). We'll give it a last docs-internal
    copy edit, and add you as a reviewer.
